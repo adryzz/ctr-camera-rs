@@ -1,0 +1,13 @@
+[package]
+name = "ctr-camera-rs"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+ctru-rs = { git = "https://github.com/rust3ds/ctru-rs", version = "0.7.1" }
+libc = "0.2.141"
+pthread-3ds = { git = "https://github.com/rust3ds/pthread-3ds.git", version = "0.1.0" }
+shim-3ds = { git = "https://github.com/rust3ds/shim-3ds.git", version = "0.1.0" }
+thiserror = "1.0.40"
